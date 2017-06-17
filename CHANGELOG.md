@@ -4,6 +4,8 @@ Changelog
 V 0.2-WIP 
 -------------------------------------------------------------------------------
 
+* Add html5_lint
+* Add Rake
 * FIX : UTF-8 mispelled
 
 V 0.1 : jekyll + rsync + French locale                                                                       
