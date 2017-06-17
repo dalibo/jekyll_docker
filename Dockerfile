@@ -18,8 +18,8 @@ RUN apt-get -qq update && \
 ENV LANG fr_FR.UTF-8
 ENV LANGUAGE fr_FR:fr
 ENV LC_ALL fr_FR.UTF-8
-RUN echo "${LANG}" > /etc/locale.gen
-RUN locale-gen ${LANG}
+RUN echo "${LANG} UTF-8" > /etc/locale.gen
+RUN locale-gen
 
 # Install jekyll with bundler 
 ADD Gemfile .
