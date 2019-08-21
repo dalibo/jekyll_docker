@@ -28,3 +28,6 @@ RUN wget -O master.zip https://github.com/mozilla/html5-lint/archive/v0.3.0.zip 
  && unzip master.zip \
  && mv html5-lint-0.3.0/html5check.py /usr/local/bin
 
+RUN mkdir -p /srv/jekyll
+WORKDIR /srv/jekyll
+
