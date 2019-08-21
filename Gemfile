@@ -9,6 +9,7 @@ group :jekyll_plugins do
    gem "twitter"
    gem "jekyll-sitemap"
    gem "jekyll-timeago"
-   gem "jekyll-redirect-from"	
+   gem "jekyll-redirect-from"
+   gem "jekyll-paginate"
  end
 
